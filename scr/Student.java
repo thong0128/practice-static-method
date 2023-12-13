@@ -7,11 +7,15 @@ public class Student {
         this.rollno = rollno;
         this.name = name;
     }
+
+    public Student() {
+    }
+
     static  void change() {
         college = "CODEGYM";
     }
     void display() {
-        System.out.println(rollno + " " + name + " " + college);
+        System.out.println(this.rollno + " " + this.name + " " + college);
     }
 }
 
